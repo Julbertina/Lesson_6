@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 80px 0 165px 0;
+}
+
+.header , .section-1 {
+    background: #EEEFF1;
+}
+
+.fixed-size-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header_list > .item {
+    display: inline-block;
+    
+}
+
+.header_list a {
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_list .active {
+    color: #34547A;
+}
+
+.header_list .margin ~ .item {
+    margin-left: 45px;
+}
+
+/* Main */
+
+.section-1 {
+    padding-bottom: 140px;
+}
+
+.title {
+    font-family: "Roboto-Medium";
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.info-1 {
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 540px;
+    margin-bottom: 65px;
+}
+
+.button {
+    font-family: "Roboto-Regular";
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    border: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+    .section-2 {
+        padding: 112px 0 100px 0;
+    }
+
+.title-2 {
+    font-family: "Roboto-Regular";
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.info-2 {
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 540px;
+    margin: 0 auto;
+}
+
+.section-3 {
+    background: #34547A;
+    color: white;
+    padding: 100px 0;
+}
+
+
+.cards {
+    display: inline-block;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.inline-cards {
+    display: inline-block;
+    width: 71px;
+    vertical-align: middle;
+}
+
+ .margin~.cards {
+     margin-left: 45px;
+ }
+
+iframe {
+    width: 100%;
+    height: 600px;
+    margin-top: 57px;
+}
+
+/* Footer */
+
+.footer {
+    background: #34547A;
+    color: white;
+    padding: 50px 0;
+ }
+
+.info-3 {
+    font-family: "Roboto-Medium";
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 50px 0 20px 0;
+}
+
+.info-4 {
+    font-family: "Roboto-Regular";
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
